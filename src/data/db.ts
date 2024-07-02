@@ -1,4 +1,5 @@
-export const db = [
+import type { Guitar } from "../types";
+export const db: Array<Guitar> = [
   {
     id: 1,
     name: "Lukather",
